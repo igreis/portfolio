@@ -1,0 +1,45 @@
+
+.main-bg {
+    background-image: url('../img/confetti-doodles.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color)
+}  
+
+.full-bg {
+    background-color: rgb(14, 1, 36);
+}
+
+.Home-bg {
+    background-image: url('../img/one-person-hiking-mountain-peak-admiring-milky-way-galaxy-generated-by-ai.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.contact-bg {
+    background-image: url('../img/diamond-sunset.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color)
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 7rem var(--gap);
+}
+
+.section {
+    min-height: 85rem;
+}
+
+body .full-whidth {
+    width: 100%;
+    flex: 1 1 100%;
+}

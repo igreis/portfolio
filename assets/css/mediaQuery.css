@@ -1,0 +1,165 @@
+@media (max-width: 950px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        align-items: center;
+        margin-left: 35%;
+    }
+
+    .front-end {
+        max-width: 28rem;
+        min-width: 28rem;
+    }
+    .back-end {
+        max-width: 28rem;
+        min-width: 28rem;
+    }
+    .versionamento {
+        max-width: 28rem;
+        min-width: 28rem;
+    }
+    .prompt-comando {
+        max-width: 28rem;
+        min-width: 28rem;
+    }
+
+    .footer {
+        gap: 30%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .intro-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-txt p, .intro-txt h6{
+        text-align: center;
+    }
+}
+
+@media (max-width: 670px) {
+
+    .home-text {
+        margin-top: -20rem;
+    }
+
+    .Home-bg {
+        background-attachment: scroll; 
+        background-position: center top; 
+    }
+
+    .home-text h1 {
+        white-space: wrap;
+        flex-flow:row;
+        overflow: visible;
+        animation: none;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .p {
+        overflow: visible;
+        white-space: wrap;
+        animation: none;
+        width: 60%;
+        text-align: center;
+        margin-left: 2rem;
+        margin-top: -1rem;
+    }
+
+    .footer-text {
+        margin-left: 10%;
+    }
+
+    .intro-img {
+        text-align: left;
+        min-width: 30rem;
+        width: 30%;
+        margin-right: 6rem;
+        max-height: 36%;
+        border-radius: 10%;
+        box-shadow: 1rem 1rem 1rem purple;
+        overflow: hidden;
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .intro-text-effect {
+        margin-bottom: 0;
+        width: 90%;
+        display: block;
+        opacity: 1;
+        transform: none;
+        transition: none;
+        color: white;
+    }
+
+    .intro-dev.active {
+        visibility: visible;
+        position: absolute;
+        color: rgb(42, 10, 223);
+        overflow: hidden;
+        white-space: nowrap;
+        animation: none;
+    }
+
+    .grid div {
+        transform: none;
+        transition: none;
+    }
+}
+
+@media (max-width: 515px) {
+    .home-text h1 {
+       width: 380px;
+    }
+
+    .footer {
+        gap: 10%;
+    }
+}
+
+@media (max-width: 485px){
+    .tecno-content h3 {
+        font-size: 4.5rem;
+        width: 41.8rem;  
+        padding-right: 7rem;
+    }
+
+    .intro-head::after {
+        content: none;
+    }
+    .tecno-content h3::after {
+        content: none;
+    }
+    .projetos-head::after {
+        content: none;
+    }
+
+    .contato h1 {
+        font-size: 7rem;
+        width: 40rem;
+    }
+
+    .intro-img {
+        margin-left: 5rem;
+    }
+
+    .intro-dev {
+        margin-left: -1rem;
+    }
+
+    .intro-txt p {
+        margin-left: 1.3rem;
+    }
+
+    .grid div {
+        margin-left: -7rem;
+    }
+}
+
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input type="checkbox" id="close-menu" class="close-menu" arial-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="colse menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">Logo</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top">Sobre Mim</a></li>
+                    <li><a href="#grid-one">Tecnologias</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+
+
+    <section class="intro Home-bg section-home" id="intro">
+        <div class="main-content home-content">
+            <div class="home-text">
+                <h1>OLÁ, EU SOU O IGOR</h1>
+                <h6 class="text-effect">Desenvolvedor de Software</h6>
+                <div class="p">
+                    <p>
+                        <br>
+                        Apaixonado por códigos, sempre fui um entusiasta de algoritmos
+                        <br>
+                        Esse é meu portfólio, explore-o para descobrir mais sobre mim
+                    </p>
+                </div>
+                <div>
+                    <a href="#top">
+                        <button type="button" class="button-home">SAIBA MAIS</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-bg section section-scroll" id="top">
+        <div class="intro-head main-content">
+            <h3>Sobre Mim</h3>
+        </div>
+        <div class="main-content intro-content">
+            <div class="intro-img">
+                <img src="assets/img/eu.jpeg" alt="">
+            </div>
+            <div class="intro-txt">
+                <h6 class="intro-dev">Desenvolvedor Full-Stack</h6>
+                <p class="intro-text-effect">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="grid-one full-bg section" id="grid-one">
+        <div class="main-content tecno-content">
+            <h3>TECNOLOGIAS</h3>
+            <div class="flex">
+                <div class="grid">
+                    <div class="front-end">
+                        <h6>Front-End</h6>
+                        <img src="https://skillicons.dev/icons?i=js" alt="">
+                        <img src="https://skillicons.dev/icons?i=html" alt="">
+                        <img src="https://skillicons.dev/icons?i=css" alt="">
+                    </div>
+                    <div class="back-end">
+                        <h6>Back-End</h6>
+                        <img src="https://skillicons.dev/icons?i=nodejs" alt="">
+                        <img src="https://skillicons.dev/icons?i=postgresql" alt="">
+                        <img src="https://skillicons.dev/icons?i=mongodb" alt="">
+                        <img src="https://skillicons.dev/icons?i=cs" alt="">
+                    </div>
+                    <div class="versionamento">
+                        <h6>Versionamento</h6>
+                        <img src="https://skillicons.dev/icons?i=git" alt="">
+                        <img src="https://skillicons.dev/icons?i=github" alt="">
+                    </div>
+                    <div class="prompt-comando">
+                        <h6>Prompt comando</h6>
+                        <img src="https://skillicons.dev/icons?i=bash" alt="">
+                        <img src="https://skillicons.dev/icons?i=powershell" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projetos full-bg section" id="projetos">
+        <div class="projetos-head">
+            <h3>PROJETOS</h3>
+        </div>
+        <div class="projetos-content">
+            <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?1" alt="random image from unsplash" class="imagem">
+                <div class="projetos-footer">
+                    <div class="tecnologias">
+                        <img src="https://skillicons.dev/icons?i=js" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?2" alt="random image from unsplash" class="imagem">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contato full-bg section" id="contato">
+        <div class="contato">
+            <h1>CONTATO</h1>
+            <div class="contato-content">
+                <div class="contato-email">
+                    <h6>E-mail:</h6>
+                    <a href="" class="email">igalvesreis2121@gmail.com</a>
+                </div>
+                <div class="contato-telefone">
+                    <h6>Telefone:</h6>
+                    <p>(34) 98831-3620</p>
+                </div>
+                <div class="contato-redes">
+                    <h6>Redes</h6>
+                    <a href="https://github.com/igreis" target="_blank">
+                        <img src="assets/img/github.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/igor-reis-a9b522266/" target="_blank">
+                        <img src="assets/img/linkedin.png" alt="">
+                    </a>
+                </div>
+                <div class="contato-footer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+          <p>© 2024 Igor dos Reis</p>  
+        </div>
+        <div class="footer-img">
+            <a href="https://github.com/igreis" target="_blank">
+                <img src="assets/img/Github_white.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/igor-reis-a9b522266/" class="link" target="_blank">
+                <img src="assets/img/linkedin-sign_icon-icons.com_73508.png" alt="">
+            </a>
+        </div>
+    </footer>
+
+    <script src="assets/js/effectIntro.js"></script>
+    <script src="assets/js/navEffect.js"></script>
+    <script src="assets/js/effectTecno.js"></script>
+
+</body>
+
+</html>
