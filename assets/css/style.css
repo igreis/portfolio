@@ -66,12 +66,12 @@
 
 .text-effect {
     color: rgb(7, 95, 228);
-    width: 22.1ch;
+    width: 22ch;
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
     border-right: 0.2rem solid rgb(7, 95, 228);
-    animation: typing 3s steps(22, end), 
+    animation: typing 3s steps(22, end) forwards, 
     blinking 0.5s step-end infinite alternate;
 }
 
@@ -79,7 +79,7 @@
     from {
         width: 0;
     } to {
-        width: 21.2ch;
+        width: 22ch;
     }
 }
 
