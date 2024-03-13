@@ -50,12 +50,18 @@
 
 .button-home {
     background: rgb(7, 95, 228);
-    color: white;
-    height: 4rem;
-    width: 12rem;
+    height: 3rem;
+    width: 11rem;
     border-radius: 10rem;
     margin-top: 10rem;
     cursor: pointer;
+    text-align: center;
+}
+
+.button-home a {
+    color: white;
+    white-space: nowrap;
+    font-size: 15px;
 }
 
 .text-effect {
@@ -73,7 +79,7 @@
     from {
         width: 0;
     } to {
-        width: 22ch;
+        width: 21.2ch;
     }
 }
 
@@ -290,7 +296,7 @@
 
 .gallery-img img {
     border: 5px solid var(--main-color);
-    width: 10rem;
+    width: 30rem;
     height: 50rem;
     object-fit: cover;
     border-radius: 1.2rem;
