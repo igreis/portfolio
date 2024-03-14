@@ -35,9 +35,53 @@
         width: 68rem;
     }
 
+    .Home-bg {
+        background-image: url('../img/one-person-hiking-mountain-peak-admiring-milky-way-galaxy-generated-by-ai.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .tecnologias{
+        height: 10rem;
+        width: 1rem;
+    }
+
 }
 
 @media (max-width: 800px) {
+
+    .intro-img {
+        transform: none;
+        transition: none;
+    }
+
+    .intro-text-effect {
+        transform: none;
+        transition: none;
+    }
+
+    .intro-dev.active {
+        animation: none;
+    }
+
+    .grid div {
+        transform: none;
+        transition: none;
+    }
+    
+    .intro-content {
+        margin-top: -5rem;
+        padding-top: 20rem;
+    }
+
+    .intro-text-effect {
+        margin-left: 4rem;
+    }
+    
+    .intro-img {
+        margin-left: 8rem;
+    }
 
     .gallery-img:hover .imagem {
         width: 60rem;
@@ -52,23 +96,20 @@
         text-align: center;
     }
 
+    .intro-dev {
+        text-align: center;
+    }
+
     .intro-img {
         margin-top: -5rem;
     }
-    
+
+    .intro-head {
+        margin: 0;
+    }
 }
 
 @media (max-width: 670px) {
-
-    .intro-head::after {
-        content: none;
-    }
-    .tecno-content h3::after {
-        content: none;
-    }
-    .projetos-head::after {
-        content: none;
-    }
 
     .gallery-img img {
         width: 10rem;
@@ -114,35 +155,16 @@
     }
 
     .intro-img {
-        text-align: left;
-        min-width: 30rem;
-        width: 30%;
-        margin-right: 6rem;
-        max-height: 36%;
-        border-radius: 10%;
-        box-shadow: 1rem 1rem 1rem purple;
-        overflow: hidden;
-        opacity: 1;
         transform: none;
         transition: none;
     }
 
     .intro-text-effect {
-        margin-bottom: 0;
-        width: 90%;
-        display: block;
-        opacity: 1;
         transform: none;
         transition: none;
-        color: white;
     }
 
     .intro-dev.active {
-        visibility: visible;
-        position: absolute;
-        color: rgb(42, 10, 223);
-        overflow: hidden;
-        white-space: nowrap;
         animation: none;
     }
 
@@ -153,10 +175,6 @@
 
     .button-home {
         display: none;
-    }
-
-    .projetos-head {
-       
     }
 
 }
@@ -196,20 +214,11 @@
 }
 
 @media (max-width: 485px){
+
     .tecno-content h3 {
         font-size: 4.5rem;
         width: 41.8rem;  
         padding-right: 7rem;
-    }
-
-    .intro-head::after {
-        content: none;
-    }
-    .tecno-content h3::after {
-        content: none;
-    }
-    .projetos-head::after {
-        content: none;
     }
 
     .contato h1 {
@@ -221,8 +230,13 @@
         margin-left: 5rem;
     }
 
-    .intro-dev {
-        margin-left: -1rem;
+    .intro-head {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .intro-head h3 {
+        width: 100%;
     }
 
     .intro-txt p {
@@ -235,12 +249,12 @@
 
     .home-text h1 {
         text-align: center;
-        margin-left: 3rem;
+        margin-left: 5rem;
     }
 
     .p {
         text-align: center;
-        margin-left: 3rem;
+        margin-left: 6rem;
     }
 
     .text-effect {
@@ -251,6 +265,38 @@
         margin-left: 30%;
         margin-top: 62%;
     }
+
+    .text-effect {
+        margin-left: 3.5rem;
+    }
+
+    .projeto-after {
+        display: none;
+    }
+
+    .after {
+        display: none;
+    }
+
+    .projetos-head h3 {
+        width: 100%;
+    }
+
+    .projetos-head {
+        left: 0;
+        text-align: center;
+    }
+
+    .tecno-after {
+        display: none;
+    }
+
+    .tecno-head h3 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 415px) {
