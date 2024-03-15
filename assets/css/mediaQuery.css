@@ -47,6 +47,52 @@
         width: 1rem;
     }
 
+    .menu {
+        text-align: center;
+        display: none;
+        background-color: rgba(14, 1, 36, 0.8);
+    }
+
+    .close-menu {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .menu-content a {
+        display: none;
+    }
+
+    .close-menu:checked~.menu{
+        display: block;
+    }
+
+    .close-menu-label::after {
+        color: yellow;
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 3rem;
+        right: 20rem;
+        cursor: pointer;
+    }
+
+    .menu-content, .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        color: yellow;
+        content: '×'
+    }
+
+    .intro-head {
+        top: 0;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -227,6 +273,26 @@
 }
 
 @media (max-width: 485px){
+
+    .projetos-content {
+        padding-top: 10rem;
+    }
+
+    .intro-head {
+        top: -4rem;
+    }
+
+    .intro-content {
+        top: -18rem;
+    }
+
+    .tecno-content {
+        top: -4rem;
+    }
+
+    .flex {
+        margin-top: -4rem;
+    }
 
     .tecno-content h3 {
         font-size: 4.5rem;

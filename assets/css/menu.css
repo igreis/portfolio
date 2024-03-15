@@ -35,6 +35,10 @@
     list-style: none;
 }
 
+.menu li {
+    letter-spacing: 0.19rem;
+}
+
 .menu ul li a{
     display: block;
     padding: 2rem;
